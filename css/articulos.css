@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.img-ph{
+display:block;
+float:left;
+width: 50%;
+}
+.conte{
+    display:block;
+    float:left;
+    width:30%;
+    padding: 0% 2%;
+    background:black;
+     
+}
+.articulo{
+    display:block;
+    float:left;
+    width: 100%;
+    max-height: 500px;
+    overflow-y: hidden;
+    background:white;
+    border:2px solid orange;
+}
+.menu_left{
+    display:block;
+    float:left;        
+    border:2px solid red;
+    width: 25%;
+    height: 600px;
+}
+
+

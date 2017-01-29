@@ -1,0 +1,97 @@
+@media (min-width:768px){
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background:#000;
+}
+input{
+  outline: none !important;
+}
+.campos_login{
+ display:block;
+ float:left;
+ width: 96%;
+ margin-left:2%;
+ margin-right:2%;
+ margin-bottom: 2%;
+ border:1px solid #ccc;
+ border-radius: 5px;
+ padding:1.8% 2%;
+
+}
+
+.cont_login{
+  background: #fff;
+  height: 640px;
+  display:block;
+  width: 400px;
+
+}
+.entrar{
+    background:#2baf2b;
+    display:block;
+    float:left;
+    width: 96%;
+    margin-left:2%;
+    color:white;
+    text-align: center;
+    -webkit-transition: all .17s ease;
+    -moz-transition: all .17s ease;
+    transition: all .17s ease;
+}
+.conte_recu{
+  display: block;
+  float: left;
+  width: 96%;
+  margin-left: 2%;
+  padding:10px 0px;
+  -border:1px solid blue;
+  text-align: center;
+}
+.recu_contra{
+  display: block;
+  font-size: 14px;
+  text-decoration: underline;
+  color:#2baf2b;
+}
+.recu_contra:hover{
+  color:#ef5734;
+}
+
+.registro{
+  -margin-left:15%;
+}
+.entrar:hover{
+  background:#5B0E8B;
+  color : white;
+}
+
+.error_login{
+  display: block;
+  float:left;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+ border:2px solid red;
+ text-align: center;
+ font-weight: 600;
+ border-radius:5px;
+ padding: 2% 2%;
+}
+.error_vacio{
+  display: block;
+  float:left;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-size:12px;
+  margin-bottom:2%;
+  color:#F73333;
+  background-color:#FFAAAA;
+  border-radius:5px;
+
+}

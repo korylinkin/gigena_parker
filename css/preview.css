@@ -1,0 +1,34 @@
+@font-face {
+         font-family: 'OSans';
+         src: url('../fonts/OpenSans-Semibold.ttf');
+    }
+
+.contenedor_articulo_preview{
+  display: block;
+  float: left;
+  width: 100%;
+  position:relative;
+  padding: 30px 170px;
+  -border:1px solid red;
+}
+
+
+.contenedor_articulo_preview h1{
+
+  font-family: 'WorldH';
+  margin-bottom: 15px;
+  -border:1px solid red;
+}
+.contenido_preview{
+  display: block;
+  float: left;
+  position:relative;
+  width: 100%;
+
+  text-align: justify;
+  border:1px solid green;
+}
+.contenido_preview footer{
+  background-color: grey;
+  color:white;
+}
