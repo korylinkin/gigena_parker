@@ -1,0 +1,28 @@
+$articulos[] = new Articulos
+                                    ($fila['id'],
+                                    $fila['autor_id'],
+                                    $fila['url'],
+                                    $fila['titulo'],
+                                    $fila['texto'],
+                                    $fila['fecha_creacion'],
+                                    $fila['fecha_modificacion'],
+                                    $fila['url_img'],
+                                    $fila['url_img_principal'],
+                                    $fila['visitas'],
+                                    $fila['activa'],
+                                    $fila['especial']);
+
+
+
+                                    var url = $('#url_link').val();
+                                    var desc = $('#link_descripcion').val();
+                                    if (desc==''){
+                                      quill.clipboard.dangerouslyPasteHTML(cursor_en,' <a id="url_mlink" href="http://'+url+'" > '+url+' </a>');
+                                    }
+                                    else{
+                                      quill.clipboard.dangerouslyPasteHTML(cursor_en,' <a id="url_mlink" href="http://'+url+'" > '+desc+' </a>');
+
+                                    }
+                                    quill.insertText(quill.getLength(),'\n');
+                                    quill.setSelection(quill.getLength(),0);
+                                    cerrar_div_padre($(this));
