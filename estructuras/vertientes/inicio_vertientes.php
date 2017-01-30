@@ -3,7 +3,7 @@
     <p>Es un dispositivo residencial de rehabilitación para personas con desordenes adictivos, que forma parte de una estrategia tratamiento integral que continua posteriormente en el centro ambulatorio de referencia.
       Está indicada para aquellas personas que no pueden seguir un tratamiento de tipo ambulatorio.</p>
 </div>
-<hr class="linea_separadora">
+
 <div class="contenedor_info_ventajas">
   <span class="titulo_vertientes">¿Cuáles son las ventajas de una C.T.?</span>
   <ul class="lista_ventajas">
