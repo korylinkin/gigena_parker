@@ -1,11 +1,11 @@
 <?php
 //info base de datos
 define('NOMBRE_SERVIDOR','mysql.hostinger.es');
-define('NOMBRE_USUARIO','u217372303_gigen');
-define('PASSWORD','pescado123');
-define('NOMBRE_BD','u217372303_gigen');
+define('NOMBRE_USUARIO','mjuncos');
+define('PASSWORD','guadalupe01');
+define('NOMBRE_BD','gigena');
 //rutas de la web
-define('WEB','www.gigenaparker.hol.es/');
+define('WEB','www.gigenaparker.com.ar/');
 define('SERVIDOR','http://'.WEB);
 
 define('INDEX_URL','/');

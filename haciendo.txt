@@ -7,7 +7,6 @@ pagina.com/1/2/
 -admin
 -login especial
 -categoria
-(esto lo acabo de agregar recien de kory para git hub papa, usandolo como un champion).
 2-es estilo:
 -categoria/titulo
 -usuario/perfil
