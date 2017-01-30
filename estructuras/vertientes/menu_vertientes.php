@@ -1,5 +1,4 @@
 <div class="contenedor_menu">
-<hr class="linea_separadora">
 <ul class="lista_menu">
 
 <li class="item_menu " data-url="inicio"><a class="activo" href="">Inicio</a></li>
