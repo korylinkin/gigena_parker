@@ -20,7 +20,7 @@ $pre_url ='../';
   <div class="info_footer">
     <p style="line-height:17px; color:white;">
       <a style="color:white;" href="#">consultas@gigenaparker.com</a></br>
-      <span>Fructuoso Rivera 89, Barrio Cofico, Córdoba</span></br>
+      <span>Fraguerio 1157 - Barrio Cofico, Córdoba Argentina</span></br>
       <span>+54 0351 4268998</span>
   </p>
   </div>
