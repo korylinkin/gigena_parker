@@ -11,7 +11,7 @@
   <body>
   <?php include_once RUTA_VERTIENTES.'header_vertientes.php';?>
   <?php include_once RUTA_VERTIENTES.'menu_vertientes.php';?>
-  <div class="contenido_menu"><hr class="linea_separadora"></div>
+  <div class="contenido_menu"></div>
   <footer id="footer_vertientes">
   <div class="info_footer">
     <span class="contenido_footer">Fructuoso Rivera 89, Barrio Cofico, Córdoba</span>

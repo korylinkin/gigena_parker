@@ -1,3 +1,4 @@
+<hr class="linea_separadora">
 <div class="contenedor_info_inicio">
     <span class="titulo_vertientes">¿Qué es una Comunidad Terapéutica Profesional? </span>
     <p>Es un dispositivo residencial de rehabilitación para personas con desordenes adictivos, que forma parte de una estrategia tratamiento integral que continua posteriormente en el centro ambulatorio de referencia.
