@@ -1,6 +1,6 @@
 <?php
 //info base de datos
-define('NOMBRE_SERVIDOR','mysql.hostinger.es');
+define('NOMBRE_SERVIDOR','104.131.225.131');
 define('NOMBRE_USUARIO','mjuncos');
 define('PASSWORD','guadalupe01');
 define('NOMBRE_BD','gigena');
