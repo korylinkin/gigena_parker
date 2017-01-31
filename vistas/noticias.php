@@ -10,7 +10,7 @@
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
-    <title>Noticias-Gigena2 Parker</title>
+    <title>Noticias-Centro Gigena Parker</title>
 
   </head>
   <body>
