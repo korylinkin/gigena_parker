@@ -1071,7 +1071,12 @@ cursor:pointer;
 
 
 }
-@media (max-width:500px){
+@media(min-width:1380px){
+  .acomodar_texto{
+    margin-left: 0px;
+  }
+}
+@media (max-width:400px){
 *{
   margin:0;
   padding:0;
