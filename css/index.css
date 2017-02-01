@@ -1071,9 +1071,9 @@ cursor:pointer;
 
 
 }
-@media only screen and (min-width: 1380px){
+@media only screen and (min-width: 680px) and (max-width:1000px){
 
-  .acomodar_texto{
+  span.acomodar_texto{
     margin-left: 0px;
   }
   body{
