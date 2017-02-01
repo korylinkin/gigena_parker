@@ -1076,6 +1076,9 @@ cursor:pointer;
   .acomodar_texto{
     margin-left: 0px;
   }
+  body{
+    background-color: red;
+  }
 }
 @media (max-width:400px){
 *{
