@@ -1494,9 +1494,8 @@ box-sizing: border-box;
   text-align: left;
   margin:0 auto;
 }
-
-.contenedor_info_ventajas .lista_ventajas>li{
-  list-style: none;
+.lista_ventajas_inicios {
+   list-style: none;
   font-family: 'Arial';
   font-size: 15px;
   line-height:25px;
@@ -1504,7 +1503,10 @@ box-sizing: border-box;
   width:740px;
   text-align: left;
   margin:0 auto;
+  margin-bottom: 15px;
 }
+
+
 .contenedor_video{
   display: block;
   float:left;
