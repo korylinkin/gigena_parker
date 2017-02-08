@@ -3,27 +3,29 @@ $txt_slogan = 'Un Equipo, Un Plan';
 $txt_btn = 'Acceso a Miembros';
 
 ?>
-<!-- <div class="flexslider">
-  <div class="informacion_slide">
+ <div class="flexslider">
+ 
+  <ul class="slides">
+    <li>
+      <img id="slide_0" src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" />
+    </li>
+    <li>
+      <img id="slide_1" src="<?php echo RUTA_IMG?>slideshow/slider1.jpg" />
+    </li>
+    <li>
+      <img id="slide_2" src="<?php echo RUTA_IMG?>slideshow/slider00.jpg" />
+    </li>
+  </ul>
+  <div class="mascara_oculta"></div>
+   <div class="informacion_slide">
     <span class="txt_slogan">Un equipo,Un plan</span>
     <button type="button" name="log_in" class="btn_contactar" id="btn_acceso">Acceso a Miembros</button>
   </div>
-  <ul class="slides">
-    <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" />
-    </li>
-    <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider1.jpg" />
-    </li>
-    <li>
-      <img src="<?php echo RUTA_IMG?>slideshow/slider00.jpg" />
-    </li>
-  </ul>
 
-</div> -->
-<div class="flexslider">
+</div> 
+<!--<div class="flexslider">
 <div class="contenedor_slideshow">
-<img class="img_slideshow" src="<?php echo RUTA_IMG?>slideshow/slider0.jpg" alt="Contactanos" />
+<img class="img_slideshow"  alt="Contactanos" />
 <div class="mascara_oculta">
 </div>
 <div class="informacion_slide">
@@ -32,7 +34,7 @@ $txt_btn = 'Acceso a Miembros';
 </div>
 </div>
 
-</div>
+</div> -->
 
 
 

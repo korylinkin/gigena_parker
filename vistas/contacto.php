@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Lato|Open+Sans|Roboto" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
+    <?php echo IMPORTAR_RESPONSIVE?> <!-- ACA SE INCLUYEN TODOS LOS CSS DEL RESPONSIVE-->
     <script src="https://use.fontawesome.com/86baab9842.js"></script>
     <title>Contacto-Gigena Parker</title>
   </head>
   <body>
     <?php include_once 'estructuras/header.php';?>
+    <div class="contenedor_contacto_principal">
     <span class="titulo_contacto">Contacto</span>
     <div class="contenedor_contacto">
       <form id="enviar_mensaje" action="contactar" method="post">
@@ -33,6 +36,14 @@
         </div>
       </div>
     </div>
-    <?php include_once 'estructuras/footer.php';?>
+  </div>
+
   </body>
-</html>
+  <?php include_once 'estructuras/footer.php';?>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>polyfill.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>jquery-ui.min.js"></script>
+  <script src="<?php echo RUTA_JS?>jquery.flexslider.js"></script>
+  <script type="text/javascript" src="<?php echo RUTA_JS?>index.js"></script>
+  </html>

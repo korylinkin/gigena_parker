@@ -28,6 +28,7 @@
    }
 
       echo json_encode($respuesta);
+
  }
  else{
 
@@ -39,5 +40,6 @@
    echo json_encode($respuesta);
 
  }
+
 
 ?>

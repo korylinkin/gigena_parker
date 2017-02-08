@@ -33,7 +33,7 @@ include_once $url_dirigir;
 
 
 
-function content_generico($url,$titulo,$img_slide,$contenido){
+function content_generico($url,$titulo,$img_slider,$contenido,$id){
 
 $str = 'estructuras/';
 $ext = '.php';

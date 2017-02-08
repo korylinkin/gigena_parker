@@ -1,5 +1,10 @@
 $(function(){
 
+var ancho = $(window).width();
+console.log(ancho);
+
+
+
 $(document).ready(function(){
   for (var i = 0; i < $(this)[0].links.length; i++) {
     var btn = $(this)[0].links[i];

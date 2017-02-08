@@ -1,6 +1,80 @@
 $(function(){
 
 
+  var ancho = $(window).width();
+  //parte responsive de las imagenes : 1 - Detectar todas las clases que usan imagenes.
+  console.log(ancho);
+  if(ancho >= 320 && ancho <=579){
+    //entonces es mobil slideshowM
+
+    $('img#img_logo').attr('src','../imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','../imgs/slideshow/sliderM/slider00.jpg');
+    $('#slide_0').attr('src','../imgs/slideshow/sliderM/slider00.jpg');
+    $('#slide_1').attr('src','../imgs/slideshow/sliderM/slider01.jpg');
+    $('#slide_2').attr('src','../imgs/slideshow/sliderM/slider02.jpg');
+
+    $('#img_nosotros').attr('src','../imgs/slideshow/sliderM/slider00.jpg');
+    $('#img_noticias').attr('src','../imgs/slideshow/sliderM/slider01.jpg');
+    $('#img_programa').attr('src','../imgs/slideshow/sliderM/slider02.jpg');//img slideshow
+  
+
+  }
+  else if (ancho >=580 && ancho < 829) {
+    //aca es Tab slideshowTab
+    $('img#img_logo').attr('src','../imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','imgs/slideshow/sliderTab/slider00.jpg');//esta cambiar por la img responsive
+    $('#slide_0').attr('src','../imgs/slideshow/sliderTab/slider00.jpg');
+    $('#slide_1').attr('src','../imgs/slideshow/sliderTab/slider01.jpg');
+    $('#slide_2').attr('src','../imgs/slideshow/sliderTab/slider02.jpg');
+
+    $('#img_nosotros').attr('src','../imgs/slideshow/sliderTab/slider00.jpg');
+    $('#img_noticias').attr('src','../imgs/slideshow/sliderTab/slider01.jpg');
+    $('#img_programa').attr('src','../imgs/slideshow/sliderTab/slider02.jpg');//img slideshow
+  }
+
+  else if (ancho >=830 && ancho < 1109) {
+    //aca es Nor slidwshowNor
+    $('img#img_logo').attr('src','../imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','../imgs/slideshow/sliderNor/slider00.jpg');
+    $('#slide_0').attr('src','../imgs/slideshow/sliderNor/slider00.jpg');
+    $('#slide_1').attr('src','../imgs/slideshow/sliderNor/slider01.jpg');
+    $('#slide_2').attr('src','../imgs/slideshow/sliderNor/slider02.jpg');
+
+    $('#img_nosotros').attr('src','../imgs/slideshow/sliderNor/slider00.jpg');
+    $('#img_noticias').attr('src','../imgs/slideshow/sliderNor/slider01.jpg');
+    $('#img_programa').attr('src','../imgs/slideshow/sliderNor/slider02.jpg');
+  }
+
+
+  else if (ancho >=1110 && ancho < 1379) {
+    //aca es hd slideshowHd
+    $('img#img_logo').attr('src','../imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    $('.img_slideshow').attr('src','imgs/slideshow/sliderHd/slider00.jpg');
+    $('#slide_0').attr('src','../imgs/slideshow/sliderHd/slider00.jpg');
+    $('#slide_1').attr('src','../imgs/slideshow/sliderHd/slider01.jpg');
+    $('#slide_2').attr('src','../imgs/slideshow/sliderHd/slider02.jpg');
+
+    $('#img_nosotros').attr('src','../imgs/slideshow/sliderHd/slider00.jpg');
+    $('#img_noticias').attr('src','../imgs/slideshow/sliderHd/slider01.jpg');
+    $('#img_programa').attr('src','../imgs/slideshow/sliderHd/slider02.jpg');//img slideshow
+  }
+  else if (ancho >=1380) {
+    //aca full slideshowFhd
+    $('img#img_logo').attr('src','../imgs/responsive/xs/logo_gigena.png');//imagen del logo.
+    //$('.img_slideshow').attr('src','imgs/slideshow/sliderFhd/slider00.jpg');
+    $('#slide_0').attr('src','../imgs/slideshow/sliderFhd/slider00.jpg');
+    $('#slide_1').attr('src','../imgs/slideshow/sliderFhd/slider01.jpg');
+    $('#slide_2').attr('src','../imgs/slideshow/sliderFhd/slider02.jpg');
+    //img slideshow
+
+    $('#img_nosotros').attr('src','../imgs/slideshow/sliderFhd/slider00.jpg');
+    $('#img_noticias').attr('src','../imgs/slideshow/sliderFhd/slider01.jpg');
+    $('#img_programa').attr('src','../imgs/slideshow/sliderFhd/slider02.jpg');
+    }
+
+
+
+  console.log(ancho);
   $(document).on('click','.imagen_perfil_integrante',function(e){
    var nombre = $(this)[0].nextSibling.innerText;
    var contenido = $(this)[0].nextSibling.nextSibling.defaultValue;
@@ -25,9 +99,17 @@ $(function(){
 
 
   });
+$('ul.menu li a').click(function(e){
+
+})
 $(document).on('click','#archivo_pdf',function(e){
   e.stopPropagation();
- e.preventDefault();
+ e.preventDefault();//aca se haria algo para bajar el arhcivo
+
+});
+$('form#enviar_mensaje').submit(function(e){
+  e.preventDefault();
+  console.log('aca entraste cuando envias el msj');
 
 });
 $(document).on('click','.img_galeria_articulo',function(){
@@ -73,7 +155,7 @@ $(document).on('click','.btn_anterior_zoom',function(){
 
   $(document).on('click','#btn_acceso',function(e){
     e.preventDefault();
-    console.log(e);
+    //console.log(e);
     $.ajax({
       url:'administrador/datos/sesion',
       method:'POST',

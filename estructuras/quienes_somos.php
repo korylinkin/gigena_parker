@@ -9,8 +9,8 @@
 </br>Además, desde nuestra fundación ofrecemos programas de asesoramiento integral a empresas con problemáticas relacionadas y efectuamos capacitaciones para profesionales interesados en la temática.
 </br>Apostamos por una recuperación integral con una gratificación perdurable y desarrollamos para cada paciente un plan personalizado para lograrlo.
 </p>
-<div class="conte_lugares" style="margin-left:32.8%;">
-  <a href="lasvertientes"><img style="height:60px;"src="<?php echo RUTA_IMG?>logo_vertientes.png" alt=""></a>
+<div class="conte_lugares">
+  <a href="lasvertientes"><img  src="<?php echo RUTA_IMG?>logo_vertientes.png" alt=""></a>
 </div>
 </div>
 

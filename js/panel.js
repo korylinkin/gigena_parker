@@ -20,6 +20,7 @@ $(function(){
       var path_estructura = 'estructuras/admin/herramientas/resumen.php';
       $('.contenedor_administrativo').html('').load(path_estructura);
     });
+
     $(document).on('change','#filtro_usuarios',function(){
         var id_filtro = parseInt($(this).val());
         var datos = {accion:'filtrar',id:id_filtro};

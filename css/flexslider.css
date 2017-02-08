@@ -12,28 +12,17 @@
 	padding: 0;
 }
 
-.flexslider{
+/*.flexslider{
   clear: both;
   display: block;
   float: left;
 	width: 100%;
   height:350px;
 	position: relative;
-  
+
   -border:1px solid green;
 }
-.informacion_slide{
-  display: block;
-  float:left;
-
-  height: 100%;
-  position: absolute;
-  margin-left:24%;
-  width: 50%;
-  z-index:999;
-  padding: 10% 15%;
-  -border :1px solid green;
-}
+*/
 .slides{
 
 
@@ -45,9 +34,7 @@ width:30%;
   -border:3px solid grey;
 }
 
-.slides >img{
-width:30%;
-}
+
 
 .slides,
 .flex-control-nav,

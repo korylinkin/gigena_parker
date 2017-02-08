@@ -14,7 +14,8 @@ if (isset($_SESSION['id_usuario'])) {
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>bootstrap.min.css">
   	<link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>panel_admin.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>index.css">
+    
+    <?php echo IMPORTAR_RESPONSIVE?>
     <link rel="stylesheet" type="text/css" href="<?php echo RUTA_CSS?>jquery-ui.min.css">
     <link href="https://cdn.quilljs.com/1.1.5/quill.snow.css" rel="stylesheet">
     <script src="https://cdn.quilljs.com/1.1.5/quill.min.js"></script>
