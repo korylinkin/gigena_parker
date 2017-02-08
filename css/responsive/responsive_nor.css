@@ -1208,7 +1208,7 @@ box-sizing: border-box;
 .contenedor_info_ventajas{
   display: block;
   float:left;
-  width: 90%;
+  width: 95%;
   margin-left: 2.5%;
   text-align: center;
   -border:1px solid green;
@@ -1238,7 +1238,7 @@ box-sizing: border-box;
   font-size: 13px;
   line-height:25px;
   display: block;
-  width:740px;
+  width:662px;
   text-align: left;
   margin:0 auto;
   margin-bottom: 15px;

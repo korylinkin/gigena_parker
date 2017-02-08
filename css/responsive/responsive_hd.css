@@ -482,8 +482,7 @@ text-align: left;
  display: block;
  float: right;
  width: 275px;
- height:100%;
- margin-top: 9px;
+ margin-top: 7px;
  text-align: center;
  -border:1px solid yellow;
  font-size: 13px;
@@ -1207,6 +1206,15 @@ box-sizing: border-box;
   margin-bottom: 15px;
 }
 
+.contenedor_info_ventajas{
+  display: block;
+  float:left;
+  width: 90%;
+  margin-left: 2.5%;
+  text-align: center;
+  -border:1px solid green;
+  margin-top: 15px;
+}
 
 .lista_ventajas{
   display: block;
