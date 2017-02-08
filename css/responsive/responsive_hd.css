@@ -483,7 +483,7 @@ text-align: left;
  float: right;
  width: 275px;
  height:100%;
- padding-top: 18px;
+ margin-top: 9px;
  text-align: center;
  -border:1px solid yellow;
  font-size: 13px;
@@ -841,6 +841,17 @@ ul.lista_ofrecemos {
 
 /*noticias */
 
+.noHayArt {
+   display: block;
+   float: left;
+   width: 100%;
+   min-height: 30%;
+   margin-top: 150px;
+   text-align: center;
+  font-size: 15px;
+  padding-top: 5%;
+}
+
 .contenedor_articulos{
  display: block;
  float: left;
@@ -1160,8 +1171,8 @@ box-sizing: border-box;
   clear: both;
   display: block;
   float: left;
-  width: 80%;
-  margin-left: 10%;
+  width: 70%;
+  margin-left: 15%;
   margin-bottom: 50px;
   -border:1px solid green;
 }

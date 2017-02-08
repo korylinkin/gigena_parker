@@ -7,7 +7,7 @@
 
 <div class="contenedor_info_ventajas">
   <span class="titulo_vertientes">¿Cuáles son las ventajas de una C.T.?</span>
-  <ul class="lista_ventajas">
+  <ul class="lista_ventajas_inicio">
     <li><i class="fa fa-circle" style="color:#3399CC;  margin-right:10px;  font-size:18px;"aria-hidden="true"></i>Abstinencia controlada.</li>
     <li><i class="fa fa-circle" style="color:#3399CC;  margin-right:10px;  font-size:18px;"aria-hidden="true"></i>Mayor intensidad y continuidad en el tratamiento.</li>
     <li><i class="fa fa-circle" style="color:#3399CC;  margin-right:10px;  font-size:18px;"aria-hidden="true"></i>Reproducción de comportamientos sociales bajo condiciones de observación e intervención optimas.</li>
