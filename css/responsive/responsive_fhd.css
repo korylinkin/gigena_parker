@@ -408,8 +408,13 @@ span.txt_slogan{
    float: left;
    width: 100%;
    min-height: 70%;
+   margin-top: 150px;
+   text-align: center;
+  font-size: 15px;
 
 }
+
+
 .contenedor_noticias span{
  display: block;
  font-family: 'Open Sans';
