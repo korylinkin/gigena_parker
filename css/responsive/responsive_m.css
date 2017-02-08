@@ -1063,7 +1063,7 @@ word-spacing: -2px;
 .contenedor_logotipo{
   width: 25%;
   margin-left: 5%;
-  margin-top: 27px;
+  margin-top: 20px;
   -border:1px solid orange;
 }
 .contenedor_logo_vertientes{
@@ -1080,6 +1080,7 @@ word-spacing: -2px;
   position: relative;
   width: 100%;
   margin-top: 50px;
+  max-width: 177px;
 }
 .contenedor_menu{
 box-sizing: border-box;
