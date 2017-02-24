@@ -7,7 +7,6 @@ pagina.com/1/2/
 -admin
 -login especial
 -categoria
-
 2-es estilo:
 -categoria/titulo
 -usuario/perfil

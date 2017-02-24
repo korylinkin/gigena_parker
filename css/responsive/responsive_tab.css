@@ -216,7 +216,16 @@ height: 50px;
   color:#337ab7;
 }
 
-
+.noHayArt {
+   display: block;
+   float: left;
+   width: 100%;
+   min-height: 20%;
+   margin-top: 80px;
+   text-align: center;
+  font-size: 15px;
+  padding-top: 2%;
+}
 
 .contenedor_feed_noticias{
  display: block;
@@ -1199,6 +1208,19 @@ box-sizing: border-box;
   text-align: left;
   margin:0 auto;
   line-height: 1.4em;
+}
+
+.lista_ventajas_inicios {
+   list-style: none;
+  font-family: 'Arial';
+  font-size: 13px;
+  line-height:25px;
+  display: block;
+  width:740px;
+  text-align: left;
+  margin:0 auto;
+  margin-bottom: 15px;
+  max-width: 100%;
 }
 .contenedor_video{
   display: block;

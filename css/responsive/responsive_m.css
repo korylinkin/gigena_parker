@@ -389,7 +389,7 @@ a.leer_mas{
 }
 .tipo_logo{
  display: block;
- width: 235px;
+ width: 201px;
  -border:1px solid pink;
  margin:20px auto;
 }
@@ -816,6 +816,16 @@ ul.lista_ofrecemos {
  -border:1px solid red;
 }
 
+.noHayArt {
+   display: block;
+   float: left;
+   width: 100%;
+   min-height: 25%;
+   margin-top: 150px;
+   text-align: center;
+  font-size: 15px;
+  padding-top: 5%;
+}
 .fa-circle:before {
   font-size: 13px;
 }
@@ -1053,7 +1063,7 @@ word-spacing: -2px;
 .contenedor_logotipo{
   width: 25%;
   margin-left: 5%;
-  margin-top: 27px;
+  margin-top: 20px;
   -border:1px solid orange;
 }
 .contenedor_logo_vertientes{
@@ -1070,6 +1080,7 @@ word-spacing: -2px;
   position: relative;
   width: 100%;
   margin-top: 50px;
+  max-width: 177px;
 }
 .contenedor_menu{
 box-sizing: border-box;
@@ -1202,6 +1213,20 @@ box-sizing: border-box;
   text-align: left;
   margin:0 auto;
   line-height: 1.4em;
+}
+
+.lista_ventajas_inicios {
+   list-style: none;
+  font-family: 'Arial';
+  font-size: 13px;
+  line-height:25px;
+  display: block;
+  width:740px;
+  text-align: left;
+  margin:0 auto;
+  margin-bottom: 15px;
+  max-width: 100%;
+  line-height:1.3em;
 }
 .contenedor_video{
   display: block;
