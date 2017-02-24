@@ -22,6 +22,7 @@ class ValidacionRegistro{
     private $error_email;
     private $error_clave;
     private $error_clave2;
+    private $error_pass_igual;
 
     public function __construct($nombre,$apellido,$email,$clave,$clave2,$privilegio,$conexion){
 
@@ -48,6 +49,7 @@ class ValidacionRegistro{
         $error_entero =$this->error_nombre.PHP_EOL.$this->error_apellido.PHP_EOL.$this->error_email.PHP_EOL.$this->error_clave.PHP_EOL.$this->error_clave2;
         return $error_entero;
     }
+
 
     private function validar_apellido($apellido){
         if (!$this->definida_vacio($apellido)) {
@@ -129,6 +131,9 @@ class ValidacionRegistro{
 
     }
     private function validar_clave($pass){
+
+
+
         if(!$this->definida_vacio($pass)){
             return 'Debes escribir una contraseña';
         }

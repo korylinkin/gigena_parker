@@ -97,6 +97,7 @@ else{
 
 
 function modificar_usuario_id($id){
+
   include_once 'app/Conexion.inc.php';
   $respuesta =array();
   Conexion::abrir_conexion();
@@ -104,8 +105,25 @@ function modificar_usuario_id($id){
   $nombre = $_POST['datos'][0]['value'];
   $apellido = $_POST['datos'][1]['value'];
   $email = $_POST['datos'][2]['value'];
+  $pass = $_POST['datos'][3]['value'];
+  $pass_check = $_POST['datos'][4]['value'];
   $privilegio = (int)$_POST['datos'][5]['value'];
-  $sql = "UPDATE usuarios SET nombre = '$nombre',apellido ='$apellido',email='$email',privilegio='$privilegio' WHERE id = '$id'";
+  $updatePass = verificar_cambios_pass($pass,$pass_check);
+
+  if($updatePass['cambios']){
+    if(!$updatePass['coincide']){
+      //$sql = "UPDATE usuarios SET nombre = '$nombre',apellido ='$apellido',email='$email',privilegio='$privilegio' WHERE id = '$id'";
+      $respuesta['exito']=true;
+      $respuesta['respuesta'] = $updatePass['error'];
+      return $respuesta;
+    }
+    $pass = password_hash($pass,PASSWORD_BCRYPT);
+    $sql = "UPDATE usuarios SET nombre = '$nombre',apellido ='$apellido',email='$email',passw='$pass', privilegio='$privilegio' WHERE id = '$id'";
+
+  }
+  else{
+    $sql = "UPDATE usuarios SET nombre = '$nombre',apellido ='$apellido',email='$email',privilegio='$privilegio' WHERE id = '$id'";
+  }
   $consulta = $conexion->prepare($sql);
   $resultado = $consulta->execute();
   Conexion::cerrar_conexion();
@@ -118,8 +136,45 @@ function modificar_usuario_id($id){
     $respuesta['respuesta'] = 'Hubo algun error en la consulta, vuelve a intentarlo';
   }
 
+
+
   return $respuesta;
 
+  }
+  function verificar_cambios_pass($pass,$check){
+    $cambios = false;
+    $coinciden =false;
+    $respuesta = array();
+
+    if(!empty($pass) && isset($pass)){
+      $cambios =true;
+      if(!empty($check) && isset($check)){
+        if($pass === $check){
+          //$cambios =true;
+          $coinciden =true;
+          $respuesta['cambios'] = $cambios;
+          $respuesta['error'] ='';
+          $respuesta['coincide'] = $coinciden;
+          //return $respuesta ;
+        }
+        else{
+          //$cambios =true;
+          $respuesta['cambios'] = $cambios;
+          $respuesta['coincide'] = $coinciden;
+          $respuesta['error'] = 'Las contraseñas no coinciden';
+          //return $respuesta;
+        }
+      }
+      else{
+        //$cambios= true;
+        $respuesta['cambios'] = $cambios;
+        $respuesta['coincide'] = $coinciden;
+        $respuesta['error'] = 'Debes confirmar la contraseña';
+        //return $respuesta;
+      }
+    }
+
+    return $respuesta;
   }
 
 function obtener_usuario_id($id){
