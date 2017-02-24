@@ -20,6 +20,7 @@ $(function(){
       var path_estructura = 'estructuras/admin/herramientas/resumen.php';
       $('.contenedor_administrativo').html('').load(path_estructura);
     });
+
     $(document).on('change','#filtro_usuarios',function(){
         var id_filtro = parseInt($(this).val());
         var datos = {accion:'filtrar',id:id_filtro};
@@ -83,6 +84,7 @@ $(function(){
 $(document).on('submit','#agregar_usuario_nuevo',function(e){
 e.preventDefault();
 var accion_actual = e.delegateTarget.activeElement.value.toLowerCase();
+console.log(accion_actual);
 var datos = $(this).serializeArray();
 if(accion_actual=='modificar'){
   var accion = 'modificar_usuario';
@@ -93,6 +95,7 @@ if(accion_actual=='modificar'){
     dataType:'JSON',
     data:{accion:accion,usuario:id_i,datos:datos},
     success:function(data){
+
       if(data.exito){
         var path_estructura = 'estructuras/admin/herramientas/usuarios.php';
         var cartel_informe = '<div class="publicado_exito">'+data.respuesta+'</div>';
@@ -121,6 +124,10 @@ else{
     dataType:'JSON',
     data:datos,
     success:function(data){
+
+
+
+
       var exito = data.exito;
       var respuesta = data.respuesta;
       if(exito){
@@ -553,11 +560,10 @@ $(document).on('drop','#upload',function(e){
 $(document).on('drop','.drop',function(e){
 
   e.preventDefault();
-
+  $('#upload ul').append('<div class="loading"><img src="imgs/loading.gif"></div>');
   $(this).removeClass('drag_over');
   var datos = new FormData();
   var lista_archivos = e.originalEvent.dataTransfer.files;
-
   for(var i=0; i<lista_archivos.length ;i++){
     datos.append('archivos[]',lista_archivos[i]);
   }
@@ -577,6 +583,8 @@ $(document).on('drop','.drop',function(e){
     cache:false,
     processData:false,
     success:function(data){
+
+      $('.loading').remove();
       if(data.exito){
 
         var img_preview = data.previews;
@@ -616,14 +624,14 @@ $(document).on('drop','.drop',function(e){
         });
 
     }
-      /*var img_preview = data[0];
+      var img_preview = data[0];
       var datos_galeria = data[1];
       var error= data[2];
       if(error==''){
         $('#galeria_articulo').attr('value',datos_galeria);
         $('#upload ul').append(img_preview);
         $('#upload ul').stickMe();
-      }*/
+      }
     }
   }).fail( function( jqXHR, textStatus, errorThrown ) {
     console.log(jqXHR.responseText);
