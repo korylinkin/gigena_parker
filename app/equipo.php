@@ -23,7 +23,7 @@ if (isset($_POST) && !empty($_POST)){
   }
 }
 else{
-  RedireccionUrl::redirigir(INDEX_URL);
+    RedireccionUrl::redirigir(INDEX_URL);
 }
 ?>
 <style media="screen">

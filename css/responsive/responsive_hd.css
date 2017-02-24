@@ -482,7 +482,8 @@ text-align: left;
  display: block;
  float: right;
  width: 275px;
- margin-top: 7px;
+ height:100%;
+ padding-top: 18px;
  text-align: center;
  -border:1px solid yellow;
  font-size: 13px;
@@ -840,17 +841,6 @@ ul.lista_ofrecemos {
 
 /*noticias */
 
-.noHayArt {
-   display: block;
-   float: left;
-   width: 100%;
-   min-height: 30%;
-   margin-top: 150px;
-   text-align: center;
-  font-size: 15px;
-  padding-top: 5%;
-}
-
 .contenedor_articulos{
  display: block;
  float: left;
@@ -1170,8 +1160,8 @@ box-sizing: border-box;
   clear: both;
   display: block;
   float: left;
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   margin-bottom: 50px;
   -border:1px solid green;
 }
@@ -1215,7 +1205,6 @@ box-sizing: border-box;
   -border:1px solid green;
   margin-top: 15px;
 }
-
 .lista_ventajas{
   display: block;
   float:left;
@@ -1229,21 +1218,10 @@ box-sizing: border-box;
   font-size: 15px;
   line-height:25px;
   display: block;
-  width:100%;
+  width:750px;
   text-align: left;
   margin:0 auto;
   width: 100%;
-}
-.lista_ventajas_inicios {
-   list-style: none;
-  font-family: 'Arial';
-  font-size: 15px;
-  line-height:25px;
-  display: block;
-  width:740px;
-  text-align: left;
-  margin:0 auto;
-  margin-bottom: 15px;
 }
 .contenedor_video{
   display: block;

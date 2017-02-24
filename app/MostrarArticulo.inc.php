@@ -120,7 +120,7 @@ class MostrarArticulo{
         $html .= self::ver_mas($id_categoria,$ultimo_id,$feed,$especial);
       }
       else{
-        $html='<div class="noHayArt">No hay articulos cargados</div>';
+        $html='<div style=" display:block;float:left;margin-left:170px; padding:25px;">No hay articulos cargados</div>';
       }
 
       return $html;
