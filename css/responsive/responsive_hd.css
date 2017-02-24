@@ -1,3 +1,5 @@
+
+
 @font-face {
      font-family: 'Lato';
      src: url('../fonts/HelveticaWorld-Regular.ttf');
@@ -376,6 +378,10 @@ a.leer_mas{
  word-spacing: -5px;
  text-decoration: none;
 }
+.txt_logo_gigena:hover{
+text-decoration: none;
+color:white;
+  }
 .tipo_logo{
  display: block;
  float:left;

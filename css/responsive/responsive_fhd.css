@@ -195,6 +195,10 @@ span.txt_slogan{
  -border: 1px solid red;
  word-spacing: -7px;
 }
+.txt_logo_gigena:hover{
+text-decoration: none;
+color:white;
+	}
 .tipo_logo{
  display: block;
  float:left;

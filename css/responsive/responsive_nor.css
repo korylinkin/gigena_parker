@@ -387,6 +387,10 @@ a.leer_mas{
  text-decoration: none;
 
 }
+.txt_logo_gigena:hover{
+text-decoration: none;
+color:white;
+  }
 .tipo_logo{
  display: block;
  float:left;
