@@ -19,9 +19,9 @@ $pre_url ='../';
   </div>
   <div class="info_footer">
     <p >
-      <a  href="#">consultas@gigenaparker.com</a></br>
+      <a  href="#">centrogigenaparker@gmail.com</a></br>
       <span>Fraguerio 1157 - Barrio Cofico, Córdoba Argentina</span></br>
-      <span>+54 0351 4268998</span>
+      <span>+54 0351 4741538</span>
   </p>
   </div>
 </footer>

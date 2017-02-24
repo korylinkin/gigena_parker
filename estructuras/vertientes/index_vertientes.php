@@ -18,9 +18,9 @@
   <div class="contenido_menu"></div>
   <footer id="footer_vertientes">
   <div class="info_footer_vertientes">
-    <span class="contenido_footer">+54 0351 4268998</span>
+    <span class="contenido_footer">+54 0351 4741538</span>
     <span class="contenido_footer">Fraguerio 1157 - Barrio Cofico, Córdoba Argentina</span>
-    <span class="contenido_footer">consultas@gigenaparker.com</span>
+    <span class="contenido_footer">centrogigenaparker@gmail.com</span>
   </div>
   </footer>
   </body>

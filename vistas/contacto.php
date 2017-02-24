@@ -29,7 +29,7 @@
         <div class="contenedor_informacion">
             <span>Fraguerio 1157 - Barrio Cofico, Córdoba Argentina<i class="fa fa-map-marker" aria-hidden="true"></i></span></br>
             <span>+54 0351 4741538 / +54 0351 4711181<i class="fa fa-mobile" aria-hidden="true"></i></span>
-            <span>consultas@gigenaparker.com<i class="fa fa-envelope" aria-hidden="true"></i></span></br>
+            <span>centrogigenaparker@gmail.com<i class="fa fa-envelope" aria-hidden="true"></i></span></br>
         </div>
         <div class="mapa_contacto">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.4534764735026!2d-64.19079718527777!3d-31.401629802679548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329864bcaad699%3A0xb6025184fc09f109!2sCentro+de+Asistencia+en+Des%C3%B3rdenes+de+la+Conducta!5e0!3m2!1ses-419!2sar!4v1482013195145" width="100%" height="220" frameborder="0" style="border:0" allowfullscreen></iframe>
